@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return markdown 1`] = `
+"[![](https://api.gh-polls.com/poll/MOCK_ID/1)](https://api.gh-polls.com/poll/MOCK_ID/1/vote)
+[![](https://api.gh-polls.com/poll/MOCK_ID/2)](https://api.gh-polls.com/poll/MOCK_ID/2/vote)
+[![](https://api.gh-polls.com/poll/MOCK_ID/3)](https://api.gh-polls.com/poll/MOCK_ID/3/vote)"
+`;
+
+exports[`should return markdown with only one option 1`] = `"[![](https://api.gh-polls.com/poll/MOCK_ID/1)](https://api.gh-polls.com/poll/MOCK_ID/1/vote)"`;
